@@ -1,7 +1,6 @@
 import { getProductById } from "@/lib/products";
 import { notFound } from "next/navigation";
 import Image from "next/image";
-import Modal from "@/app/components/modal"; // Zakładam istnienie komponentu Modal
 
 export default async function InterceptedImagePage(props: {
     params: Promise<{ productId: string }>;
