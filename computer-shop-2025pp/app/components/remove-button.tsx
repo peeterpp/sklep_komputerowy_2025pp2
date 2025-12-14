@@ -1,4 +1,3 @@
-// app/components/remove-button.tsx
 'use client';
 
 import { removeCartItem } from '@/lib/actions/cart';
@@ -11,7 +10,7 @@ export default function RemoveButton({ cartItemId }: { cartItemId: string }) {
 
     const handleRemove = () => {
         startTransition(async () => {
-            await removeCartItem(cartItemId);
+            await removeCartItem(Number(cartItemId));
             router.refresh(); // Odśwież widok, aby zaktualizować sumę i listę
         });
     };
