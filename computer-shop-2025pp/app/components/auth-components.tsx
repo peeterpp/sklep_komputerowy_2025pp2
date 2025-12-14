@@ -1,6 +1,6 @@
 import { signIn, signOut } from "@/lib/auth"
 
-export function SignIn({ provider, ...props }: { provider?: string } & React.ComponentPropsWithRef<typeof HTMLButtonElement>) {
+export function SignIn({ provider, ...props }: { provider?: string } & React.ComponentProps<"button">) {
     return (
         <form
             action={async () => {
@@ -13,7 +13,7 @@ export function SignIn({ provider, ...props }: { provider?: string } & React.Com
     )
 }
 
-export function SignOut(props: React.ComponentPropsWithRef<typeof HTMLButtonElement>) {
+export function SignOut(props: React.ComponentProps<"button">) {
     return (
         <form
             action={async () => {
@@ -25,6 +25,6 @@ export function SignOut(props: React.ComponentPropsWithRef<typeof HTMLButtonElem
             <button className="w-full p-0" {...props}>
                 Wyloguj się
             </button>
-        </form>
-    )
+        </form>
+    )
 }
