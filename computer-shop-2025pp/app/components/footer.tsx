@@ -1,14 +1,16 @@
 export default function Footer() {
-    return (
-        <footer className="w-full border-t border-[#333] bg-[#111] py-8 mt-auto text-center text-sm text-gray-500">
-            <div className="max-w-[1600px] mx-auto px-8 flex flex-col md:flex-row justify-between items-center gap-4">
-                <p>
-                    &copy; 2025 Sklep Komputerowy PP. Wszelkie prawa zastrzeżone.
-                </p>
-                <p>
-                    Projekt i realizacja: <span className="text-gray-300">Student PK</span>
-                </p>
-            </div>
-        </footer>
-    );
+  return (
+    <footer className="py-5 text-center text-[#eee] bg-[#111] border-t border-[#00d4ff]">
+      <p>Autor: Piotr Poliński</p>
+      <p>2025</p>
+      <p>
+        <a 
+          href="https://pk.edu.pl" 
+          className="text-[#00d4ff] hover:underline transition"
+        >
+          Politechnika Krakowska
+        </a>
+      </p>
+    </footer>
+  );
 }

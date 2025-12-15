@@ -23,7 +23,7 @@ export default async function MainHeader() {
                         />
                     </div>
                     <span className="text-xl font-bold tracking-wider text-white group-hover:text-gray-200 transition-colors">
-                        SKLEP 2025
+                        
                     </span>
                 </Link>
 

@@ -13,7 +13,7 @@ export default function Home() {
           priority
         />
         <div className="text-3xl font-bold tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-400">
-          Witajcie na stronie Sklepu Komputerowego 2025 MR!
+          Witajcie na stronie Sklepu Komputerowego 2025 PP!
         </div>
       </main>
     </div>
