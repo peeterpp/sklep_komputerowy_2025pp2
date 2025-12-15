@@ -18,7 +18,7 @@ export default function Discounts() {
                     </p>
                 </div>
                 <Link
-                    href={`/product-list/produkty/${promoProduct.id}`}
+                    href={`/product-list/${promoProduct.type}/${promoProduct.id}`}
                     className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded-lg transition-all shadow-md"
                 >
                     Zobacz teraz
