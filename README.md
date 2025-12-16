@@ -6,7 +6,7 @@
 - year: 2025
 - group: 14K2
 - computer laboratory team: K02
-- link to app on Vercel platform:
+- link to app on Vercel platform: https://sklep-komputerowy-2025pp2-dcjt.vercel.app/
 
 ## Content
 
